@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+}
+
+.col-1 {
+    margin: 5rem;
+}
+
+.col-1, .col-2 {
+    width: 50%;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 5rem;
+    color: #EF8275;
+}
+
+h5 {
+    margin-top: 1.2rem;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .col-2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .col-2 {
+        display: none;
+    }
+}
