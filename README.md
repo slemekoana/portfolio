@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Live Link
+## Link to the Deployed Site
 https://selaelolemekoanaportfolio.netlify.app/
 
 ## Available Scripts
