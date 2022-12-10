@@ -14,7 +14,7 @@ const Header = () => {
                 </h5> 
               </div>
               <div className="col-2">
-                  <img src={ME} alt="Black woman illustration" />
+                  <img className="illustration" src={ME} alt="Illustration of Selaelo" />
               </div>
           </div>
     </header>
