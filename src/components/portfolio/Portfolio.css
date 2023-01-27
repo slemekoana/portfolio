@@ -2,14 +2,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
-    /* margin: 3.5rem; */
 }
 
 .portfolio-item {
-    /*background: ;*/
     box-shadow: 3px 5px 10px var(--color-bg-variant);
-    /* border: 2px transparent #ccc;
-    box-shadow: 3px 5px 10px #ccc; */
     padding: 1.3rem;
     border-radius: 2rem;
     border: 1px solid transparent;
@@ -29,7 +25,6 @@
 }
 
 .portfolio-item h3 {
-    /* margin: 2rem 0 2rem 0; */
     margin: 1.2rem 0 2rem;
     text-align: center;
     font-weight: bold;
@@ -40,17 +35,8 @@ p {
     text-align: center;
 }
 
-.heading {
-    /* margin: 2% 0 2%; */
-    
-    /* justify-content: center; */
-    /* text-align: center; */
-}
-
 .cta {
     display: flex;
-
-    /* justify-content: center; */
     gap: 1rem;
     margin-bottom: 1rem;
 }
