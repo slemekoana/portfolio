@@ -6,12 +6,14 @@ import { BsGithub } from 'react-icons/bs'
 
 const Footer = () => {
   return (
-    <section id='footer'>
+    // <section id='footer'>
       <footer>
-        <a className='permalinks' href="#">Home</a>
-        <a className='permalinks' href="#about">About</a>
-        <a className='permalinks' href="#experience">Experience</a>
-        <a className='permalinks' href="#portfolio">Portfolio</a>
+        <ul className="permalinks">
+          <li><a className='permalinks' href="#">Home</a></li>
+          <li><a className='permalinks' href="#about">About</a></li>
+          <li><a className='permalinks' href="#experience">Experience</a></li>
+          <li><a className='permalinks' href="#portfolio">Portfolio</a></li>
+        </ul>
       
         <div className='social'>
           <a className='soc-icon' href="https://www.linkedin.com/in/selaelo-lemekoana-59b96922a/" target='_blank'>
@@ -25,12 +27,14 @@ const Footer = () => {
           </a>
         </div>
         
-        <p className="copyright">&copy; Copyright 2022</p>
-        <p className="built">
+        <div className="footer-copyright">
+          <small>&copy; Copyright 2022. All rights reserved.</small> 
+        </div>
+        {/* <p className="built">
           Built with &#x2661; by <a href="https://www.linkedin.com/in/selaelo-lemekoana-59b96922a/" target='_blank'> Selaelo Lemekoana</a>
-        </p>
+        </p> */}
       </footer>
-    </section>
+    // </section>
   )
 }
 

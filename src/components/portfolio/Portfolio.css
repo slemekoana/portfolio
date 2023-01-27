@@ -2,37 +2,55 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 2.5rem;
-    margin: 3.5rem;
+    /* margin: 3.5rem; */
 }
 
 .portfolio-item {
-    border: 2px transparent #ccc;
-    box-shadow: 3px 5px 10px #ccc;
+    /*background: ;*/
+    box-shadow: 3px 5px 10px var(--color-bg-variant);
+    /* border: 2px transparent #ccc;
+    box-shadow: 3px 5px 10px #ccc; */
     padding: 1.3rem;
     border-radius: 2rem;
-    transition: 3s;
+    border: 1px solid transparent;
+    transition: var(--transition);
 } 
 
 .portfolio-item:hover {
-    border-color: brown;
+    border-color: var(--color-primary-variant);
     background: transparent;
+    box-shadow: 3px 5px 10px #ccc;
 }
 
 .portfolio-item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    
+}
+
+.portfolio-item h3 {
+    /* margin: 2rem 0 2rem 0; */
+    margin: 1.2rem 0 2rem;
+    text-align: center;
+    font-weight: bold;
+    color: var(--color-primary);
+}
+
+p {
+    text-align: center;
 }
 
 .heading {
-    margin: 2% 0 2%;
+    /* margin: 2% 0 2%; */
     
     /* justify-content: center; */
-    text-align: center;
+    /* text-align: center; */
 }
 
 .cta {
     display: flex;
-    justify-content: center;
+
+    /* justify-content: center; */
     gap: 1rem;
     margin-bottom: 1rem;
 }

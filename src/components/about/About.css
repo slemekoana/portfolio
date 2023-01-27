@@ -1,17 +1,20 @@
 .about-container {
-    display: flex;
-    margin: 5rem;
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
 }
 
 .about-me {
+    width: 100%;
     aspect-ratio: 1/1;
     border-radius: 2rem;
     background: linear-gradient(
         45deg,
         transparent,
-        pink,
+        var(--color-primary),
         transparent
     );
+    display: grid;
     place-items: center;
 }
 
@@ -19,7 +22,7 @@
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
-    transition: 2s;
+    transition: var(--transition);
 }
 
 .about-me-img:hover {
@@ -27,22 +30,23 @@
 }
 
 .about-content {
-    margin: 1.7rem;
-    line-height: 2;
+    /* margin: 1.7rem; */
+    /* line-height: 2; */
     /* font-size: 20px; */
 }
 
 p {
-    font-size: 1.2rem;
-    margin-left: 2rem;
+    /* font-size: 1.2rem; */
+    color: var(--color-light);
+    margin: 2rem 2 2.6rem;
 }
 
 
 /* ==========  MEDIA QUERIES (MEDIUM DEVICES) ========== */
 @media screen and (max-width: 1024px) {
-    .container {
+    .about-container {
         grid-template-columns: 1fr;
-        flex-direction: column;
+        gap: 0;
     }
 
     .about-me {
@@ -51,9 +55,7 @@ p {
     }
 
     .about-content p {
-        /* margin: 1rem 0 1.5rem; */
-        /* font-size: 18px; */
-        margin: 0rem;
+        margin: 1rem 0 1.5rem;
     }
 }
 
@@ -65,6 +67,9 @@ p {
 
     .about-content {
         text-align: center;
-        margin: 0rem;
+    }
+
+    .about-content p {
+        margin: 1.5rem 0;
     }
 }
