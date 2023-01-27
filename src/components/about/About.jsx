@@ -14,11 +14,9 @@ const About = () => {
         </div>
         <div className="about-content">
           <p>
-            Selaelo is a person, who never sit idle. She codes to improve her problem-solving and technical skills. 
-            To gain experience and learn to work in diverse teams, she participates in global hackathons.
-            If she is not coding, she designs in Figma. She writes what she learns about her learning experience on <a href="https://selaelo.substack.com/"> Substack</a>.
-            In her spare time she read books, prefer Sci-Fi and Fantansy, but some Non-Fiction like Show Your Work find a way to enter her reading list.
-            If Selaelo is not doing any of the above, she takes part in internal conflict on which series to watch. 
+            Selaelo never sits idle. She codes to improve her problem-solving and technical skills. To gain experience, she participates in global hackathons.
+If she is not coding, she designs in Figma. She writes what she learns about her learning experience on <a href="https://selaelo.substack.com/"> Substack</a>.
+            In her spare time, she reads books and prefers Sci-Fi and fantasy, but some Non-Fiction like 'Show Your Work!' by Austin Kleon find a way to enter her reading list. 
           </p>
         </div>
       </div>
